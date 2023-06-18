@@ -1,0 +1,15 @@
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\bin\Debug\net6.0\DFSharp.exe
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\bin\Debug\net6.0\DFSharp.deps.json
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\bin\Debug\net6.0\DFSharp.runtimeconfig.json
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\bin\Debug\net6.0\DFSharp.dll
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\bin\Debug\net6.0\DFSharp.pdb
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\DFSharp.csproj.AssemblyReference.cache
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\DFSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\DFSharp.AssemblyInfoInputs.cache
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\DFSharp.AssemblyInfo.cs
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\DFSharp.csproj.CoreCompileInputs.cache
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\DFSharp.dll
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\refint\DFSharp.dll
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\DFSharp.pdb
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\DFSharp.genruntimeconfig.cache
+C:\Users\uhhno\source\repos\DFSharp\DFSharp\obj\Debug\net6.0\ref\DFSharp.dll
