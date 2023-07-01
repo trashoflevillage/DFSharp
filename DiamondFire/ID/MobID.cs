@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DFSharp.DiamondFire.ID
+{
+    public class MobID
+    {
+        public static readonly string Allay = MaterialID.AllaySpawnEgg;
+        public static readonly string Axolotl = MaterialID.AxolotlSpawnEgg;
+        public static readonly string Bat = MaterialID.BatSpawnEgg;
+        public static readonly string Camel = MaterialID.CamelSpawnEgg;
+        public static readonly string Cat = MaterialID.CatSpawnEgg;
+        public static readonly string Chicken = MaterialID.ChickenSpawnEgg;
+        public static readonly string Cod = MaterialID.CodSpawnEgg;
+        public static readonly string Cow = MaterialID.CowSpawnEgg;
+        public static readonly string Donkey = MaterialID.DonkeySpawnEgg;
+        public static readonly string Fox = MaterialID.FoxSpawnEgg;
+        public static readonly string Frog = MaterialID.FrogSpawnEgg;
+        public static readonly string GlowSquid = MaterialID.GlowSquidSpawnEgg;
+        public static readonly string Horse = MaterialID.HorseSpawnEgg;
+        public static readonly string Mooshroom = MaterialID.MooshroomSpawnEgg;
+        public static readonly string Mule = MaterialID.MuleSpawnEgg;
+        public static readonly string Ocelot = MaterialID.OcelotSpawnEgg;
+        public static readonly string Parrot = MaterialID.ParrotSpawnEgg;
+        public static readonly string Pig = MaterialID.PigSpawnEgg;
+        public static readonly string Pufferfish = MaterialID.PufferfishSpawnEgg;
+        public static readonly string Rabbit = MaterialID.RabbitSpawnEgg;
+        public static readonly string Salmon = MaterialID.SalmonSpawnEgg;
+        public static readonly string Sheep = MaterialID.SheepSpawnEgg;
+        public static readonly string SkeletonHorse = MaterialID.SkeletonHorseSpawnEgg;
+        public static readonly string SnowGolem = MaterialID.SnowGolemSpawnEgg;
+        public static readonly string Squid = MaterialID.SquidSpawnEgg;
+        public static readonly string Strider = MaterialID.StriderSpawnEgg;
+        public static readonly string Tadpole = MaterialID.TadpoleSpawnEgg;
+        public static readonly string TropicalFish = MaterialID.TropicalFishSpawnEgg;
+        public static readonly string Turtle = MaterialID.TurtleSpawnEgg;
+        public static readonly string Villager = MaterialID.VillagerSpawnEgg;
+        public static readonly string WanderingTrader = MaterialID.WanderingTraderSpawnEgg;
+        public static readonly string Bee = MaterialID.BeeSpawnEgg;
+        public static readonly string CaveSpider = MaterialID.CaveSpiderSpawnEgg;
+        public static readonly string Dolphin = MaterialID.DolphinSpawnEgg;
+        public static readonly string Enderman = MaterialID.EndermanSpawnEgg;
+        public static readonly string Goat = MaterialID.GoatSpawnEgg;
+        public static readonly string IronGolem = MaterialID.IronGolemSpawnEgg;
+        public static readonly string Llama = MaterialID.LlamaSpawnEgg;
+        public static readonly string Panda = MaterialID.PandaSpawnEgg;
+        public static readonly string Piglin = MaterialID.PiglinSpawnEgg;
+        public static readonly string PolarBear = MaterialID.PolarBearSpawnEgg;
+        public static readonly string Spider = MaterialID.SpiderSpawnEgg;
+        public static readonly string TraderLlama = MaterialID.TraderLlamaSpawnEgg;
+        public static readonly string Wolf = MaterialID.WolfSpawnEgg;
+        public static readonly string ZombifiedPiglin = MaterialID.ZombifiedPiglinSpawnEgg;
+        public static readonly string Blaze = MaterialID.BlazeSpawnEgg;
+        public static readonly string Creeper = MaterialID.CreeperSpawnEgg;
+        public static readonly string Drowned = MaterialID.DrownedSpawnEgg;
+        public static readonly string ElderGuardian = MaterialID.ElderGuardianSpawnEgg;
+        public static readonly string Endermite = MaterialID.EndermiteSpawnEgg;
+        public static readonly string Evoker = MaterialID.EvokerSpawnEgg;
+        public static readonly string Ghast = MaterialID.GhastSpawnEgg;
+        public static readonly string Guardian = MaterialID.GuardianSpawnEgg;
+        public static readonly string Hoglin = MaterialID.HoglinSpawnEgg;
+        public static readonly string Husk = MaterialID.HuskSpawnEgg;
+        public static readonly string MagmaCube = MaterialID.MagmaCubeSpawnEgg;
+        public static readonly string Phantom = MaterialID.PhantomSpawnEgg;
+        public static readonly string PiglinBrute = MaterialID.PiglinBruteSpawnEgg;
+        public static readonly string Pillager = MaterialID.PillagerSpawnEgg;
+        public static readonly string Ravager = MaterialID.RavagerSpawnEgg;
+        public static readonly string Shulker = MaterialID.ShulkerSpawnEgg;
+        public static readonly string Silverfish = MaterialID.SilverfishSpawnEgg;
+        public static readonly string Skeleton = MaterialID.SkeletonSpawnEgg;
+        public static readonly string Slime = MaterialID.SlimeSpawnEgg;
+        public static readonly string Stray = MaterialID.StraySpawnEgg;
+        public static readonly string Vex = MaterialID.VexSpawnEgg;
+        public static readonly string Vindicator = MaterialID.VindicatorSpawnEgg;
+        public static readonly string Warden = MaterialID.WardenSpawnEgg;
+        public static readonly string Witch = MaterialID.WitchSpawnEgg;
+        public static readonly string WitherSkeleton = MaterialID.WitherSkeletonSpawnEgg;
+        public static readonly string Zoglin = MaterialID.ZoglinSpawnEgg;
+        public static readonly string Zombie = MaterialID.ZombieSpawnEgg;
+        public static readonly string ZombieVillager = MaterialID.ZombieVillagerSpawnEgg;
+    }
+}
