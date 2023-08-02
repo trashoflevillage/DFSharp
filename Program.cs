@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using DFSharp.DiamondFire.ID;
+﻿using DFSharp.DiamondFire.ID;
 
 namespace DFSharp
 {
