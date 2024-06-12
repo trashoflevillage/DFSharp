@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DFSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d506cb2e1eb0a33d4c39496464b684551fbc03de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed63c1daa7ce12c6d75acfadbf3c9103e796142e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DFSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DFSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
