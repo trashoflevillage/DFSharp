@@ -11,6 +11,6 @@ namespace DFSharp.DiamondFire.DataStructures
         public readonly int playerCount;
         public readonly float cpuUsage;
         public readonly float tps;
-        public readonly long timestamp;
+        public readonly double timestamp;
     }
 }

@@ -17,7 +17,7 @@ namespace DFSharp.ExamplePlot
 
         public override void DamagePlayer(Player damager, Player victim, int damageAmount)
         {
-            damager.SetEquipmentItem(new ItemStack(MaterialID.DiamondSword), EquipmentSlot.Mainhand);
+            //damager.SetEquipmentItem(new ItemStack(MaterialID.DiamondSword), EquipmentSlot.Mainhand);
         }
     }
 }

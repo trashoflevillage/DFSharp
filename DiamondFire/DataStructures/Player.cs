@@ -55,7 +55,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// </summary>
         /// <param name="item">Item(s) to give</param>
         /// <param name="num">Amount to give</param>
-        public void GiveItems(ItemStack item, long num) { }
+        public void GiveItems(ItemStack item, double num = 1) { }
 
         /// <summary>
         ///
@@ -68,7 +68,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="text">Title</param>
         /// <param name="num">Current health</param>
         /// <param name="num2">Maximum health</param>
-        public void BossBar(string text, long num, long num2) { }
+        public void BossBar(string text, double num, double num2) { }
 
         /// <summary>
         /// Displays a sphere of particles at a location to a player.
@@ -76,13 +76,13 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="particle">Effect</param>
         /// <param name="loc">Center location</param>
         /// <param name="num">Diameter</param>
-        public void ParticleSphere(Particle particle, Vector3 loc, long num) { }
+        public void ParticleSphere(Particle particle, Vector3 loc, double num) { }
 
         /// <summary>
         /// Sets a player's attack speed.
         /// </summary>
         /// <param name="num">Attack speed</param>
-        public void SetAtkSpeed(long num) { }
+        public void SetAtkSpeed(double num) { }
 
         /// <summary>
         /// Sets a player's movement velocity.
@@ -129,13 +129,13 @@ namespace DFSharp.DiamondFire.DataStructures
         /// </summary>
         /// <param name="num">Damage to inflict</param>
         /// <param name="text">Damage source</param>
-        public void Damage(long num, string text) { }
+        public void Damage(double num, string text) { }
 
         /// <summary>
         /// Sets a player's experience level, points or progress.
         /// </summary>
         /// <param name="num">Experience to set</param>
-        public void SetExp(long num) { }
+        public void SetExp(double num) { }
 
         /// <summary>
         /// Makes a player perform an animation.
@@ -146,7 +146,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets the XP progress bar to a certain percentage.
         /// </summary>
         /// <param name="num">Progress % (0-100)</param>
-        public void SetXPProg(long num) { }
+        public void SetXPProg(double num) { }
 
         /// <summary>
         /// Sets items in a player's upper inventory.
@@ -159,13 +159,13 @@ namespace DFSharp.DiamondFire.DataStructures
         /// </summary>
         /// <param name="loc">Locations toteleport to</param>
         /// <param name="num">Teleport delay (ticks,default = 60)</param>
-        public void TpSequence(Vector3 loc, long num) { }
+        public void TpSequence(Vector3 loc, double num) { }
 
         /// <summary>
         /// Restores a player's health.
         /// </summary>
         /// <param name="num">Amount to heal</param>
-        public void Heal(long num) { }
+        public void Heal(double num) { }
 
         /// <summary>
         /// Restores a player's health.
@@ -194,7 +194,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="num2">Diameter</param>
         /// <param name="num3">Effect count</param>
         /// <param name="num4">Rotations</param>
-        public void ParticleSpiral(Particle particle, Vector3 loc, long num, long num2, long num3, long num4) { }
+        public void ParticleSpiral(Particle particle, Vector3 loc, double num, double num2, double num3, double num4) { }
 
         /// <summary>
         /// Sets whether a player's inventory is kept after death.
@@ -210,19 +210,19 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Launches a player up or down.
         /// </summary>
         /// <param name="num">Launch power</param>
-        public void LaunchUp(long num) { }
+        public void LaunchUp(double num) { }
 
         /// <summary>
         /// Sets a player's maximum health.
         /// </summary>
         /// <param name="num">Maximum health</param>
-        public void SetMaxHealth(long num) { }
+        public void SetMaxHealth(double num) { }
 
         /// <summary>
         /// Removes a boss health bar from a player's screen.
         /// </summary>
         /// <param name="num">Boss bar position</param>
-        public void RemoveBossBar(long num) { }
+        public void RemoveBossBar(double num) { }
 
         /// <summary>
         ///
@@ -306,7 +306,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="num">Current health</param>
         /// <param name="num2">Maximum health</param>
         /// <param name="num3">Boss bar position</param>
-        public void SetBossBar(string text, long num, long num2, long num3) { }
+        public void SetBossBar(string text, double num, double num2, double num3) { }
 
         /// <summary>
         /// Sets the player's skin.
@@ -324,7 +324,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets the currently remaining ticks until a player can next be hurt.
         /// </summary>
         /// <param name="num">Ticks</param>
-        public void SetInvulTicks(long num) { }
+        public void SetInvulTicks(double num) { }
 
         /// <summary>
         /// Sets the item on a player's cursor.
@@ -336,13 +336,13 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets a player's absorption health (golden hearts).
         /// </summary>
         /// <param name="num">Absorption health</param>
-        public void SetAbsorption(long num) { }
+        public void SetAbsorption(double num) { }
 
         /// <summary>
         /// Sets the remaining time a player is on fire for.
         /// </summary>
         /// <param name="num">Ticks</param>
-        public void SetFireTicks(long num) { }
+        public void SetFireTicks(double num) { }
 
         /// <summary>
         ///
@@ -353,7 +353,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Removes the given number of rows from the bottom of a player's current inventory menu.
         /// </summary>
         /// <param name="num">Rows to remove</param>
-        public void RemoveInvRow(long num) { }
+        public void RemoveInvRow(double num) { }
 
         /// <summary>
         ///
@@ -385,7 +385,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets the player's current freeze ticks
         /// </summary>
         /// <param name="num">Ticks</param>
-        public void SetFreezeTicks(long num) { }
+        public void SetFreezeTicks(double num) { }
 
         /// <summary>
         /// Sets whether a player is gliding with elytra.
@@ -397,7 +397,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// </summary>
         /// <param name="num">Pitch (-90 to 90)</param>
         /// <param name="num2">Yaw (-180 to 180)</param>
-        public void SetRotation(long num, long num2) { }
+        public void SetRotation(double num, double num2) { }
 
         /// <summary>
         ///
@@ -410,7 +410,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="particle">Effect</param>
         /// <param name="loc">Center location</param>
         /// <param name="num">Diameter</param>
-        public void ParticleCircle(Particle particle, Vector3 loc, long num) { }
+        public void ParticleCircle(Particle particle, Vector3 loc, double num) { }
 
         /// <summary>
         /// Removes all of an item from a player.
@@ -490,14 +490,14 @@ namespace DFSharp.DiamondFire.DataStructures
         /// </summary>
         /// <param name="num">Slot</param>
         /// <param name="item">Item to set</param>
-        public void SetMenuItem(long num, ItemStack item) { }
+        public void SetMenuItem(double num, ItemStack item) { }
 
         /// <summary>
         /// Launches a player toward or away from a location.
         /// </summary>
         /// <param name="loc">Launch destination</param>
         /// <param name="num">Launch power</param>
-        public void LaunchToward(Vector3 loc, long num) { }
+        public void LaunchToward(Vector3 loc, double num) { }
 
         /// <summary>
         /// Sets a player's armor items. Place the armor in slots 1-4 of the chest, with 1 being the helmet and 4 being the boots.
@@ -525,13 +525,13 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets the amount of arrows sticking out of a player's character model.
         /// </summary>
         /// <param name="num">Arrow Count</param>
-        public void SetArrowsStuck(long num) { }
+        public void SetArrowsStuck(double num) { }
 
         /// <summary>
         /// Adds experience points or levels to a player.
         /// </summary>
         /// <param name="num">Experience to give</param>
-        public void GiveExp(long num) { }
+        public void GiveExp(double num) { }
 
         /// <summary>
         /// Rotates a player to look toward a location without teleporting them.
@@ -555,7 +555,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="item">Item(s) to replace</param>
         /// <param name="item2">Item to replace with</param>
         /// <param name="num">Amount of items toreplace</param>
-        public void ReplaceItems(ItemStack item, ItemStack item2, long num) { }
+        public void ReplaceItems(ItemStack item, ItemStack item2, double num) { }
 
         /// <summary>
         /// Displays text directly above a player's hotbar.
@@ -580,14 +580,14 @@ namespace DFSharp.DiamondFire.DataStructures
         /// </summary>
         /// <param name="num">New radius</param>
         /// <param name="num2">Blocks per second</param>
-        public void ShiftWorldBorder(long num, long num2) { }
+        public void ShiftWorldBorder(double num, double num2) { }
 
         /// <summary>
         /// Sets the item in a slot of a player's inventory.
         /// </summary>
         /// <param name="item">Item to set</param>
         /// <param name="num">Slot to set</param>
-        public void SetSlotItem(ItemStack item, long num) { }
+        public void SetSlotItem(ItemStack item, double num) { }
 
         /// <summary>
         /// Plays a sequence of sounds to a player, with a delay between each sound.
@@ -595,7 +595,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="sound">Sounds to play</param>
         /// <param name="num">Sound delay (ticks,default = 60)</param>
         /// <param name="loc">Playback location</param>
-        public void PlaySoundSeq(Sound sound, long num, Vector3 loc) { }
+        public void PlaySoundSeq(Sound sound, double num, Vector3 loc) { }
 
         /// <summary>
         /// Displays an animated line of particles between two locations to a player.
@@ -605,7 +605,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="loc2">End location</param>
         /// <param name="num">Effect spacing</param>
         /// <param name="num2">Animation duration</param>
-        public void ParticleLineA(Particle particle, Vector3 loc, Vector3 loc2, long num, long num2) { }
+        public void ParticleLineA(Particle particle, Vector3 loc, Vector3 loc2, double num, double num2) { }
 
         /// <summary>
         /// Displays text on a sign to a player.
@@ -623,7 +623,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets a player's walking and/or flight speed.
         /// </summary>
         /// <param name="num">Movement speedpercentage (0% to 1000%)</param>
-        public void SetSpeed(long num) { }
+        public void SetSpeed(double num) { }
 
         /// <summary>
         /// Adds 3 more rows to a player's current inventory menu using the contents of the chest.
@@ -645,14 +645,14 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="text">Projectile name</param>
         /// <param name="num">Speed</param>
         /// <param name="num2">Inaccuracy</param>
-        public void LaunchProj(Projectile proj, Vector3 loc, string text, long num, long num2) { }
+        public void LaunchProj(Projectile proj, Vector3 loc, string text, double num, double num2) { }
 
         /// <summary>
         /// Applies a cooldown visual effect to an item type.
         /// </summary>
         /// <param name="item">Item type to affect</param>
         /// <param name="num">Cooldown in ticks</param>
-        public void SetItemCooldown(ItemStack item, long num) { }
+        public void SetItemCooldown(ItemStack item, double num) { }
 
         /// <summary>
         /// Sets the type of weather visible to a player.
@@ -680,7 +680,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets a player's remaining breath ticks.
         /// </summary>
         /// <param name="num">Breath ticks</param>
-        public void SetAirTicks(long num) { }
+        public void SetAirTicks(double num) { }
 
         /// <summary>
         /// Displays a pickup animation of one entity being collected by another entity.
@@ -697,7 +697,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="loc2">Corner 2</param>
         /// <param name="num">Effect spacing</param>
         /// <param name="num2">Animation duration</param>
-        public void ParticleCuboidA(Particle particle, Vector3 loc, Vector3 loc2, long num, long num2) { }
+        public void ParticleCuboidA(Particle particle, Vector3 loc, Vector3 loc2, double num, double num2) { }
 
         /// <summary>
         /// Sets a player's chat color.
@@ -711,13 +711,13 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="loc">Center position</param>
         /// <param name="num">Radius in blocks</param>
         /// <param name="num2">Warning distance</param>
-        public void SetWorldBorder(Vector3 loc, long num, long num2) { }
+        public void SetWorldBorder(Vector3 loc, double num, double num2) { }
 
         /// <summary>
         /// Sets the time of day visible to a player.
         /// </summary>
         /// <param name="num">Daylight ticks)</param>
-        public void SetPlayerTime(long num) { }
+        public void SetPlayerTime(double num) { }
 
         /// <summary>
         ///
@@ -777,7 +777,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets a player's current health.
         /// </summary>
         /// <param name="num">Current health</param>
-        public void SetHealth(long num) { }
+        public void SetHealth(double num) { }
 
         /// <summary>
         /// Disguises a player as a mob.
@@ -808,7 +808,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets a player's walk speed.
         /// </summary>
         /// <param name="num">% of normalwalk speed (0 to 500)</param>
-        public void WalkSpeed(long num) { }
+        public void WalkSpeed(double num) { }
 
         /// <summary>
         /// Opens a container's inventory. Also works with crafting tables.
@@ -825,7 +825,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Launches a player forward or backward.
         /// </summary>
         /// <param name="num">Launch power</param>
-        public void LaunchFwd(long num) { }
+        public void LaunchFwd(double num) { }
 
         /// <summary>
         /// Displays an animated circle of particles to a player.
@@ -834,7 +834,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="loc">Center location</param>
         /// <param name="num">Diameter</param>
         /// <param name="num2">Animation duration</param>
-        public void ParticleCircleA(Particle particle, Vector3 loc, long num, long num2) { }
+        public void ParticleCircleA(Particle particle, Vector3 loc, double num, double num2) { }
 
         /// <summary>
         ///
@@ -845,7 +845,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets a player's fall distance, affecting fall damage upon landing.
         /// </summary>
         /// <param name="num">Fall distance (blocks)</param>
-        public void SetFallDistance(long num) { }
+        public void SetFallDistance(double num) { }
 
         /// <summary>
         /// Sets a player's game mode to Creative.
@@ -890,7 +890,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// </summary>
         /// <param name="loc">Block(s) tofracture</param>
         /// <param name="num">Fracture level</param>
-        public void DisplayFracture(Vector3 loc, long num) { }
+        public void DisplayFracture(Vector3 loc, double num) { }
 
         /// <summary>
         /// Sets if an entity is hidden to a target.
@@ -918,7 +918,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// Sets a player's selected hotbar slot.
         /// </summary>
         /// <param name="num">New slot</param>
-        public void SetSlot(long num) { }
+        public void SetSlot(double num) { }
 
         /// <summary>
         /// Displays a ray of particles to a player.
@@ -927,13 +927,13 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="loc">Ray location</param>
         /// <param name="vec">Ray vector</param>
         /// <param name="num">Effect spacing</param>
-        public void ParticleRay(Particle particle, Vector3 loc, Vector3 vec, long num) { }
+        public void ParticleRay(Particle particle, Vector3 loc, Vector3 vec, double num) { }
 
         /// <summary>
         /// Sets a player's food hunger level.
         /// </summary>
         /// <param name="num">Food level(0-20)</param>
-        public void SetFoodLevel(long num) { }
+        public void SetFoodLevel(double num) { }
 
         /// <summary>
         /// Disguises a player as another player.
@@ -949,20 +949,20 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="loc">Corner 1</param>
         /// <param name="loc2">Corner 2</param>
         /// <param name="num">Effect spacing</param>
-        public void ParticleCuboid(Particle particle, Vector3 loc, Vector3 loc2, long num) { }
+        public void ParticleCuboid(Particle particle, Vector3 loc, Vector3 loc2, double num) { }
 
         /// <summary>
         /// Sends a series of messages in chat to a player, with a delay after each message.
         /// </summary>
         /// <param name="text">Messages to send</param>
         /// <param name="num">Message delay ticks</param>
-        public void SendMessageSeq(string text, long num) { }
+        public void SendMessageSeq(string text, double num) { }
 
         /// <summary>
         /// Sets a player's saturation level.
         /// </summary>
         /// <param name="num">Saturation level(1-20)</param>
-        public void SetSaturation(long num) { }
+        public void SetSaturation(double num) { }
 
         /// <summary>
         ///
@@ -984,7 +984,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="num3">Particle count</param>
         /// <param name="num4">Rotations</param>
         /// <param name="num5">Animation duration</param>
-        public void ParticleSpiralA(Particle particle, Vector3 loc, long num, long num2, long num3, long num4, long num5) { }
+        public void ParticleSpiralA(Particle particle, Vector3 loc, double num, double num2, double num3, double num4, double num5) { }
 
         /// <summary>
         /// Displays text in the center of a player's screen.
@@ -994,7 +994,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="num">Title duration</param>
         /// <param name="num2">Fade in length</param>
         /// <param name="num3">Fade out length</param>
-        public void SendTitle(string text, string text2, long num, long num2, long num3) { }
+        public void SendTitle(string text, string text2, double num, double num2, double num3) { }
 
         /// <summary>
         /// Sets if a player is instantly respawned upon dying.
@@ -1020,7 +1020,7 @@ namespace DFSharp.DiamondFire.DataStructures
         /// <param name="loc">Start location</param>
         /// <param name="loc2">End location</param>
         /// <param name="num">Effect spacing</param>
-        public void ParticleLine(Particle particle, Vector3 loc, Vector3 loc2, long num) { }
+        public void ParticleLine(Particle particle, Vector3 loc, Vector3 loc2, double num) { }
     }
 
     public enum EquipmentSlot
