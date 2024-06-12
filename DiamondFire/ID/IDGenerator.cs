@@ -8,7 +8,7 @@ namespace DFSharp.DiamondFire.ID
 {
     internal class IDGenerator
     {
-        private static void GenerateIDCode(string items)
+        public static void GenerateIDCode(string items)
         {
             string[] itemsArray = items.Replace("minecraft:", "").Split("\r\n");
             string[] varName;
